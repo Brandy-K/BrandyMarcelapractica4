@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Fashion Week in BCN  </title>
+  <link rel="stylesheet" type="text/css" href="formulari.css">
+</head>
+<body>
+
+<h1>Registra't per formar part de la Fashion Week!</h1>
+<h2>detalls personals</h2>
+<form action="formulari_enviat.html" method="post">
+
+  <div>
+    <label for="forEmail" > Email </label>
+    <input id="forEmail" type="text">
+
+    <br><br>
+    <label for="forNom i cognom" > Nom i cognom </label>
+    <input id="forNom i cognom" type="text">
+
+    <br> <br>
+    <label for="forEdat" > Edat </label>
+    <input id="forEdat" type="Number">
+
+
+  </div>
+  <br>
+
+  <div>
+    <label for="formDistrict">Districte de naixement</label>
+    <select id="formDistrict">
+      <option>Eixample</option>
+      <option>El Raval</option>
+      <option>la Barceloneta</option>
+      <option>Gracia</option>
+
+    </select>
+  </div>
+  <br>
+
+  <div>
+    <label for="formGenereD">Dona</label>
+    <input id="formGenereD" type="radio" name="genere">
+    <br>
+    <label for="formGenereH">Home</label>
+    <input id="formGenereH" type="radio" name="genere">
+
+    <label for="formGenereA">Altres</label>
+    <input id="formGenereA" type="radio" name="genere">
+
+
+  </div>
+  <br>
+  <div>
+    <h3>Tipus de Roba</h3>
+    <label for="formVestit"> Vestit </label>
+    <input id="formVestit" type="Checkbox" name="roba" >
+    <br>
+    <label for="formFaldilla"> Faldilla </label>
+    <input id="formFaldilla" type="Checkbox" name="roba" >
+    <br>
+    <label for="formSpecial"> Ocasió Special </label>
+    <input id="formSpecial" type="Checkbox" name="roba">
+    <br>
+    <label for="formP"> Pantalons </label>
+    <input id="formP" type="Checkbox" name="roba">
+    <br>
+    <label for="formEsportiva"> Roba esportiva </label>
+    <input id="formEsportiva" type="Checkbox"  name="roba">
+    <br>
+    <label for="formDinner"> Dinner Outfit</label>
+    <input id="formDinner" type="Checkbox" name="roba " >
+    <br>
+    <label for="formPlatja"> Roba de Platja </label>
+    <input id="formPlatja" type="Checkbox"  name = "roba">
+
+  </div>
+  <br>
+  <div>
+    <h4>descriu breument la teva roba</h4>
+    <input type="text" id="shortText" name="shortText" placeholder="Enter short text here">
+
+    <br>
+    <br>
+    <h4>descriu-te breument</h4>
+    <textarea id="message" name="message" placeholder="Enter your text here"></textarea>
+    <br><br>
+
+    <button type="Submit">Send</button>
+
+  </div>
+</form>
+
+</body>
+</html>

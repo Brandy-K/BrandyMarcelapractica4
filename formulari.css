@@ -1,0 +1,28 @@
+/*set background color for both pages*/
+body {
+       background-color: #008080;
+        font-family: Times New Roman, sans-serif; /*set font on both pages*/
+      }
+      /* Apply the width style to short text and email*/
+ .wide-input {
+               width:300px;
+  }
+  /* Apply the width style to numeric input */
+  #numeric-input {
+                   width:100px;
+  }
+  /*applies style to button*/
+  button{
+          width:150;
+          background-color:#808080
+          color:white;
+  }
+  /*sets hover effect for buttons*/
+  button:hover{
+                background-color:#800080;
+  }
+  /*applies focus effect for all elements*/
+  *:focus {
+           outline:none;
+
+  }
