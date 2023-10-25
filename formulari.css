@@ -1,6 +1,6 @@
 /*set background color for both pages*/
 body {
-       background-color: #008080;
+       background-color: #ADD8E6;
         font-family: Times New Roman, sans-serif; /*set font on both pages*/
       }
       /* Apply the width style to short text and email*/
@@ -19,7 +19,7 @@ body {
   }
   /*sets hover effect for buttons*/
   button:hover{
-                background-color:#800080;
+                background-color:#F4C2C2;
   }
   /*applies focus effect for all elements*/
   *:focus {
