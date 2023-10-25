@@ -23,6 +23,7 @@ body {
   }
   /*applies focus effect for all elements*/
   *:focus {
-           outline:#F4C2C2;
+           outline:none;
+         background-color: #F4C2C2;
 
   }
